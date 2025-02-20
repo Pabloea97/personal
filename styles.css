@@ -279,7 +279,6 @@ body {
     color: white;
 }
 
-/* Estilos para la sección de la carta */
 .seccion-carta {
     display: none;
     text-align: center;
@@ -290,6 +289,9 @@ body {
     max-width: 600px;
     width: 100%;
     margin: 20px auto;
+    max-height: 80vh; 
+    overflow-y: auto; 
+    padding: 20px; 
 }
 
 .titulo-carta h1 {
